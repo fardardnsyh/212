@@ -1,0 +1,125 @@
+{
+  "workdata":[
+    {
+      "img": [
+        "/images/projects/relish/relish1.png",
+        "/images/projects/relish/relish2.png",
+        "/images/projects/relish/relish3.png",
+        "/images/projects/relish/relish4.png"
+      ],
+      "alt": "image",
+      "title": "Relish",
+      "project-type": "webApp",
+      "stack": [
+        "react",
+        "django",
+        "GitHub Actions",
+        "AWS EC2"
+      ],
+      "features": [
+        "Interactive Map Integration with Google Maps to help users find nearby restaurants and new dining spots.",
+        "Personalized Recommendations based on past visits.",
+        "Gamification includes achievement badges and rewards to motivate users to try new places."
+      ],
+      "description": "Relish is an innovative application designed to inspire and encourage users to explore new restaurants and culinary experiences.",
+      "productDescription": "Relish is an innovative app designed to inspire users to explore new restaurants. It features Google Maps integration for easy discovery, personalized recommendations, and gamification elements like badges and rewards. Built with ReactJS and Django, and deployed on AWS EC2, Relish combines engaging features from Google Maps and Yelp.",
+      "githubUrl": "https://github.com/Goaty-yagi/relish-frontend",
+      "post-url": "https://relish.quest"
+    },
+    {
+      "img": [
+        "/images/projects/friendRecord/friend.record1.png",
+        "/images/projects/friendRecord/friend.record2.png",
+        "/images/projects/friendRecord/friend.record3.png",
+        "/images/projects/friendRecord/friend.record4.png"
+      ],
+      "alt": "image",
+      "title": "Friend-Record",
+      "project-type": "webApp",
+      "stack": [
+        "typescript",
+        "django",
+        "next.js",
+        "AWS SES"
+      ],
+      "features": [
+        "Record relationships with your friends with financial implications",
+        "Display an overall summary of all your interactions with a friend.",
+        "Display a monthly summary of incoming and outgoing interactions.",
+        "Smart alert functionalities to give you a nudge when your last interaction with a friend is longer than 4 weeks or close to birthday."
+      ],
+      "description": "This is a friend recording app which offload your chores of managing relationships to this app so you can focus on the quality time of interaction with your friend.",
+      "productDescription": "Document your interaction with your friend and display a smart log of past interactions with financial implications.Offload your chores of managing relationships to this app so you can focus on the quality time of interaction with your friend.",
+      "githubUrl": "https://github.com/Goaty-yagi/friend-records-django",
+      "post-url": "https://friend.nobuhiro.site/"
+    },
+    {
+      "img": [
+        "/images/projects/sampleWebsite/sample-web1.png",
+        "/images/projects/sampleWebsite/sample-web2.png",
+        "/images/projects/sampleWebsite/sample-web3.png",
+        "/images/projects/sampleWebsite/sample-web4.png"
+      ],
+      "alt": "image",
+      "title": "Sample-Website",
+      "project-type": "webApp",
+      "stack": [
+        "next.js",
+        "chakra-ui",
+        "framer-motion"
+      ],
+      "features": [
+        "simple static information website",
+        "customer form for enquiry"
+      ],
+      "description": "This web app is built as a product for companies which need simple information website, implemented with simple animations to get user attentions.",
+      "productDescription": "Sample-Website is a simple one page site designed for showing information purpose, such as one time event.",
+      "githubUrl": "",
+      "post-url": "https://sample-website-p3liie9lt-goaty-yagi.vercel.app/"
+    },
+    {
+      "img": [
+        "/images/projects/nekoJapanese/neko-japanese.png","/images/projects/nekoJapanese/neko-japanese1.png","/images/projects/nekoJapanese/neko-japanese2.png","/images/projects/nekoJapanese/neko-japanese3.png"
+      ],
+      "alt": "image",
+      "title": "Neko-Japanese",
+      "project-type": "WebApp",
+      "stack": [
+        "vue-cli",
+        "django",
+        "firebase"
+      ],
+      "features": [
+        "Evaluate your japanese skills with smart quizzes.",
+        "Check your strength and weakness from your visual summary chart.",
+        "Learn japanese according to your level.",
+        "Support and interact with your peer learners in the community forum."
+      ],
+      "description": "This is my first project built with Vue-CLI and Django, might be published as a product.",
+      "productDescription": "Neko Japanese is a platform where learn Japanese, test and evaluate japanese knowledge, access viewable weakness and strong point in each component, community to discuss Japanese topics. Currently, this is for portfolio purpose, but might be published as a product.",
+      "githubUrl": "https://github.com/Goaty-yagi/quiz_project",
+      "post-url": "https://neko-japanese.herokuapp.com/"
+    },
+    {
+      "img": [
+        "/images/projects/quizRankingDojo/quiz-ranking-dojo.png"
+      ],
+      "alt": "image",
+      "title": "Quiz-Ranking-Dojo",
+      "project-type": "webApp",
+      "stack": [
+        "javascript",
+        "firebase",
+        "css"
+      ],
+      "features": [
+        "Learn tech terms",
+        "Study tech terms",
+        "Compete other users in the Ranking"
+      ],
+      "description": "This is my final project in General Assembly development course. I built SPA from scratch to understand how SPA works, I believe that this experience definitely help my future-self when I learn new frameworks or libraries.",
+      "productDescription": "Quiz-Ranking-Dojo is where to defeat other players and even yourself. Test your knowledge and get high score. You require to answer within 10 second each question, if you fail, it will be end  then the num of correct will be your score. This is for portfolio purpose, not a product.","githubUrl": "https: //github.com/Goaty-yagi/GA_SPA_Final_Project",
+      "post-url": "https://quiz-ranking-dojo.herokuapp.com/"
+    }
+  ]
+}

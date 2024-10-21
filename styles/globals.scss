@@ -1,0 +1,223 @@
+:root {
+  --l-container-text-c: rgb(85, 85, 85);
+  --l-container-border-c: gray;
+}
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+h1 {
+  display: block !important;
+  font-size: 2em !important;
+  -webkit-margin-before: 0.67em !important;
+  -webkit-margin-after: 0.67em !important;
+  -webkit-margin-start: 0px !important;
+  -webkit-margin-end: 0px !important;
+  font-weight: bold !important;
+}
+h2 {
+  display: block !important;
+  font-size: 1.5em !important;
+  -webkit-margin-before: 0.83em !important;
+  -webkit-margin-after: 0.83em !important;
+  -webkit-margin-start: 0px !important;
+  -webkit-margin-end: 0px !important;
+  font-weight: bold !important;
+}
+h3 {
+  display: block !important;
+  font-size: 1.17em !important;
+  -webkit-margin-before: 1em !important;
+  -webkit-margin-after: 1em !important;
+  -webkit-margin-start: 0px !important;
+  -webkit-margin-end: 0px !important;
+  font-weight: bold !important;
+}
+h4 {
+  display: block !important;
+  -webkit-margin-before: 1.33em !important;
+  -webkit-margin-after: 1.33em !important;
+  -webkit-margin-start: 0px !important;
+  -webkit-margin-end: 0px !important;
+  font-weight: bold !important;
+}
+h5 {
+  display: block !important;
+  font-size: 0.83em !important;
+  -webkit-margin-before: 1.67em !important;
+  -webkit-margin-after: 1.67em !important;
+  -webkit-margin-start: 0px !important;
+  -webkit-margin-end: 0px !important;
+  font-weight: bold !important;
+}
+h6 {
+  display: block !important;
+  font-size: 0.67em !important;
+  -webkit-margin-before: 2.33em !important;
+  -webkit-margin-after: 2.33em !important;
+  -webkit-margin-start: 0px !important;
+  -webkit-margin-end: 0px !important;
+  font-weight: bold !important;
+}
+pre code {
+  // display: inline-block;
+  width: 600px;
+  overflow-x: auto;
+}
+pre {
+  width: 600px;
+}
+blockquote{
+  padding: 0.5rem 1rem;
+  border-left: 0.5rem solid lightgray !important;
+}
+mdContainer {
+  display: block;
+  color: var(--l-container-text-c);
+  background: rgb(217, 217, 217);
+  border-left: 1rem solid var(--l-container-border-c);
+  padding: 2rem 1rem;
+  font-weight: bold;
+}
+mdContainer.blue { //set classname = blue; 
+  color: #414141;
+  border-left: 1rem solid #68d0d8;
+  background: #e3fcff;
+}
+mdContainer.red {
+  color: #414141;
+  border-left: 1rem solid #ff5959;
+  background: #ffe7e7;
+}
+
+mdContainer.yellow {
+  color: #414141;
+  border-left: 1rem solid #c1c027;
+  background: #feffe5;
+}
+
+mdTextContainer {
+  display: block;
+  position: relative;
+  margin: 2em 0;
+  padding: 0.5em 1em;
+  border: solid 3px #595959;
+  background: #f4f4f4;
+  color: #242424;
+  font-weight: bold;
+}
+mdTextContainer boxTitle {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: -32px;
+  left: -3px;
+  padding: 0 1rem;
+  height: 30px;
+  line-height: 25px;
+  font-size: 17px;
+  background:#595959;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+}
+
+mdTextContainer.red {
+  border: solid 3px #D73C3C;
+}
+boxTitle.red {
+  background: #D73C3C;
+}
+
+mdTextContainer.blue {
+  border: solid 3px #62c1ce;
+}
+boxTitle.blue {
+  background: #62c1ce;
+}
+
+mdDotContainer {
+  display: block;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #565656;
+  background: #ffeaea;
+  // box-shadow: 0px 0px 0px 10px #ffeaea;
+  border:solid 2px #ed4040;
+  border-radius: 8px;
+}
+
+mdTopBottomContainer{
+  display: block;
+  padding: 8px 19px;
+  margin: 2em 0;
+  color: #2c2c2f;
+  background: #cde4ff;
+  border-top: solid 5px #5989cf;
+  border-bottom: solid 5px #5989cf;
+}
+
+center {
+  display: flex;
+  justify-content: center;
+}
+index-color {
+  color: #ff5959;
+}
+sub-index-color {
+  color: brown;
+}
+r-container {
+  background: gray;
+  padding: 1rem;
+  border-radius: 5px;
+  border: solid #757575;
+  color: white;
+}
+
+customA, .customA {
+  color: #5257FF;
+  transition: 300ms;
+  cursor: pointer;
+}
+customA, .customA:hover {
+  color: #666ae0;
+}
+
+textColor {
+  color: black;
+}
+textColor.red {
+  color: red;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media(max-width: 650px){
+  pre code {
+    // display: inline-block;
+    width: 100vw;
+    overflow-x: auto;
+  }
+  pre {
+    width: 96vw;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
